@@ -1,0 +1,20 @@
+{
+  "name": "aizen-md-whatsapp-bot",
+  "version": "2.1.0",
+  "description": "AIZEN MD WhatsApp group management bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check config.js && node --check menu.js && node --check lib/ai.js && node --check lib/store.js && node --check sections/owner.js && node --check sections/group.js && node --check sections/design.js && node --check sections/protection.js && node --check sections/settings.js && node --check sections/ai.js && node --check sections/entertainment.js && node --check sections/downloads.js && node --check sections/index.js && node --check sections/admin.js && node --check sections/status.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.18",
+    "algochat-ai": "1.0.0",
+    "pino": "^9.6.0",
+    "yt-search": "^2.12.1"
+  }
+}
